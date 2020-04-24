@@ -1,0 +1,31 @@
+{
+  "name": "server_scalling",
+  "version": "1.0.0",
+  "description": "Scalling node server with cluster module",
+  "main": "app.js",
+  "scripts": {
+    "normal": "nodemon normal.js",
+    "scalled": "nodemon app.js",
+    "compute": "nodemon fork_process"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AkwGaniu/node_server_scalling.git"
+  },
+  "keywords": [
+    "server",
+    "scalling",
+    "node",
+    "parallel"
+  ],
+  "author": "ennyTech",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AkwGaniu/node_server_scalling/issues"
+  },
+  "homepage": "https://github.com/AkwGaniu/node_server_scalling#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  }
+}
